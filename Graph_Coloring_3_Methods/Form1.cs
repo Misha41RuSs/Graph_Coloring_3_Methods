@@ -15,6 +15,7 @@ namespace Graph_Coloring_3_Methods
         public Form1()
         {
             InitializeComponent();
+            toolTip1.SetToolTip(addVertexButton, "Добавить вершину");
         }
 
         private void button1_Click(object sender, EventArgs e)
